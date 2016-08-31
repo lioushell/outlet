@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="Cache-Control" content="must-revalidate,no-cache">
+    <title>遇见幸福</title>
+    <meta name="description" content="赛特奥莱" id="desc">
+    <meta name="author" content="wangyuan">
+    <!-- <base href="../../../static/game/outlet/"/> -->
+    <!-- <base href="/static/wboll_game/static/game/outlet/"> -->
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="css/midautumn.css"/>
+</head>
+
+<body style="zoom: 1;">
+<!--================================ 背景音乐 =================================-->
+<a href="javascript:void(0);" class="m-music m-play">
+    <i class="icon-music"></i>
+    <audio src="img/music.mp3" id="J_audio" autoplay="autoplay" loop="loop"></audio>
+</a>
+<!--================================ 游戏开始 =================================-->
+<div id="gameReady" class="alert_box1 anima2 current">
+    <div class="game-top clearfloat">
+        <div class="leader-btn fl">
+            <a class="top-bg1 fl" href="javascript:void(0);"><img src="img/ranklist.png" /></a>
+        </div>
+        <div class="rules-btn fr">
+            <a class="top-bg2 f2" href="javascript:void(0);"><img src="img/game-rule.png" /></a>
+        </div>
+    </div>
+    <span id="btnGamestart" class="id_start"></span>
+    <!--加载层-->
+    <div class="game-load" id="loading"><span class="load-text"></span></div>
+</div>
+
+<!--=============================== 规则页 ==================================-->
+<div id="gameRule" class="rules none">
+    <div class="rules-bg"></div>
+    <span id="btn-gameRule" class="id_iknow"></span>
+</div>s
+
+<!--============================== 排行榜页 ===================================-->
+<div class="leader none">
+    <div class="leader-con-title">
+        <img src="img/ranklist-title.png"/>
+    </div>
+    <div class="leader-con-bg">
+        <img src="img/ranklistbg.png"/>
+    </div>
+    <div class="leader-con">
+        <ul class="leader-ul">
+            <li class="clearfloat">
+                <span class="leader-span1">
+                    <img src="img/rank-touxiang1.png"/>
+                </span>
+            <span class="leader-span2">王晓鸥</span>
+            <span class="leader-span3">450</span>
+            <span class="leader-span4-1 fr"></span>
+        </li>
+            <li class="clearfloat">
+                <span class="leader-span1">
+                    <img src="img/rank-touxiang2.png"/>
+                </span>
+                <span class="leader-span2">王晓鸥</span>
+                <span class="leader-span3">450</span>
+                <span class="leader-span4-2 fr"></span>
+            </li>
+            <li class="clearfloat">
+                <span class="leader-span1">
+                    <img src="img/rank-touxiang3.png"/>
+                </span>
+                <span class="leader-span2">王晓鸥王晓鸥</span>
+                <span class="leader-span3">450</span>
+                <span class="leader-span4-3 fr"></span>
+            </li>
+            <li class="clearfloat">
+                <span class="leader-span1">
+                    <img src="img/rank-touxiang1.png"/>
+                </span>
+                <span class="leader-span2">王晓鸥王晓鸥</span>
+                <span class="leader-span3">450</span>
+                <span class="leader-span4-4 fr"><span class="leader-span4">4</span></span>
+            </li>
+            <li class="clearfloat">
+                <span class="leader-span1">
+                    <img src="img/rank-touxiang3.png"/>
+                </span>
+                <span class="leader-span2">王晓鸥王晓鸥</span>
+                <span class="leader-span3">450</span>
+                <span class="leader-span4-4 fr"><span class="leader-span4">5</span></span>
+            </li>
+            <li class="clearfloat">
+                <span class="leader-span1">
+                    <img src="img/rank-touxiang1.png"/>
+                </span>
+                <span class="leader-span2">王晓鸥王晓鸥</span>
+                <span class="leader-span3">450</span>
+                <span class="leader-span4-4 fr"><span class="leader-span4">6</span></span>
+            </li>
+            <li class="clearfloat">
+                <span class="leader-span1">
+                    <img src="img/rank-touxiang2.png"/>
+                </span>
+                <span class="leader-span2">王晓鸥王晓鸥</span>
+                <span class="leader-span3">450</span>
+                <span class="leader-span4-4 fr"><span class="leader-span4">7</span></span>
+            </li>
+            <li class="clearfloat">
+                <span class="leader-span1">
+                    <img src="img/rank-touxiang3.png"/>
+                </span>
+                <span class="leader-span2">王晓鸥王晓鸥</span>
+                <span class="leader-span3">450</span>
+                <span class="leader-span4-4 fr"><span class="leader-span4">8</span></span>
+            </li>
+            <li class="clearfloat">
+                <span class="leader-span1">
+                    <img src="img/rank-touxiang1.png"/>
+                </span>
+                <span class="leader-span2">王晓鸥王晓鸥</span>
+                <span class="leader-span3">450</span>
+                <span class="leader-span4-4 fr"><span class="leader-span4">9</span></span>
+            </li>
+            <li class="clearfloat">
+                <span class="leader-span1">
+                    <img src="img/rank-touxiang3.png"/>
+                </span>
+                <span class="leader-span2">王晓鸥王晓鸥</span>
+                <span class="leader-span3">450</span>
+                <span class="leader-span4-4 fr"><span class="leader-span4">10</span></span>
+            </li>
+            <li class="clearfloat">
+                <span class="leader-span1">
+                    <img src="img/rank-touxiang1.png"/>
+                </span>
+            <span class="leader-span2">王晓鸥王晓鸥</span>
+            <span class="leader-span3">450</span>
+            <span class="leader-span4-4 fr"><span class="leader-span4">11</span></span>
+        </li>
+            <li class="clearfloat">
+                <span class="leader-span1">
+                    <img src="img/rank-touxiang2.png"/>
+                </span>
+                <span class="leader-span2">王晓鸥王晓鸥</span>
+                <span class="leader-span3">450</span>
+                <span class="leader-span4-4 fr"><span class="leader-span4">12</span></span>
+            </li>
+            <li class="clearfloat">
+                <span class="leader-span1">
+                    <img src="img/rank-touxiang3.png"/>
+                </span>
+                <span class="leader-span2">王晓鸥王晓鸥</span>
+                <span class="leader-span3">450</span>
+                <span class="leader-span4-4 fr"><span class="leader-span4">13</span></span>
+            </li>
+            <li class="clearfloat">
+                <span class="leader-span1">
+                    <img src="img/rank-touxiang1.png"/>
+                </span>
+                <span class="leader-span2">王晓鸥王晓鸥</span>
+                <span class="leader-span3">450</span>
+                <span class="leader-span4-4 fr"><span class="leader-span4">14</span></span>
+            </li>
+            <li class="clearfloat">
+                <span class="leader-span1">
+                    <img src="img/rank-touxiang2.png"/>
+                </span>
+                <span class="leader-span2">王晓鸥王晓鸥</span>
+                <span class="leader-span3">450</span>
+                <span class="leader-span4-4 fr"><span class="leader-span4">15</span></span>
+            </li>
+            <li class="clearfloat">
+                <span class="leader-span1">
+                    <img src="img/rank-touxiang3.png"/>
+                </span>
+                <span class="leader-span2">王晓鸥王晓鸥</span>
+                <span class="leader-span3">450</span>
+                <span class="leader-span4-4 fr"><span class="leader-span4">16</span></span>
+            </li>
+        </ul>
+    </div>
+    <div id="leader-btn" class="gotit-btn">
+        <img src="img/btn-iknow.png"/>
+    </div>
+</div>
+
+
+<!--============================== 游戏页 ===================================-->
+<div id="gameContent" class="box_start anima2 current">
+    <!--game 游戏页-->
+    <div class="game-con " id="game_con"></div>
+    <!--score time-->
+    <div class="scroe-con " id="scroe_con">
+        <div class="mk-condesc">您已接到圣诞糖果：</div>
+        <div class="mk-con" id="mk_con">0</div>
+        <div class="mk-ge">个</div>
+        <!--<div class="sec-con" id="sec_con">0</div>-->
+    </div>
+    <!--拖动游戏开始-->
+    <div class="ctrl-con tips " id="ctrl">
+        <div class="role-aa" id="role">
+            <div class="role"></div>
+        </div>
+        <div class="add add1" id="add"></div>
+    </div>
+</div>
+
+
+<!--============================== 弹窗信息提示页 ===================================-->
+<div id="alertInfo" class="huibg">
+    <div class="christmasbg">
+        <div class="tips-info">
+            <!--提示内容-->
+            <div class="game-tips">
+                <!--机会没用完后弹窗-->
+                <p id="tipCont1" class=" ">恭喜你接住了<span id="candyNum">56</span>个圣诞糖果。</p>
+                <!--机会用完后弹窗-->
+                <p id="tipCont2" class="tip-cont1">分享好友再次挑战，冲刺大奖吧！</p>
+                <!--再次打开链接，机会已用完弹窗-->
+                <p id="tipCont3" class="tip-cont2">可是机会已用完，分享好友再次挑战，冲刺大奖吧！</p>
+            </div>
+            <!--提示按钮-->
+            <div class="btn-two">
+                <a id="btnRestart" class="btn-red" href="javascript:void(0);"><img src="img/btn-restart.png"/></a>
+                <a id="btnShareFriend" class="btn-red btn-sharefriend" href="javascript:void(0);"><img src="img/btn-sharefriend.png"/></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--============================== 分享好友页 ===================================-->
+<div id="shareFriend" class="huibg share-friend">
+    <img src="img/btn-share.png" />
+</div>
+
+
+<!--============================== 活动结束页 ===================================-->
+<div id="gameOver" class="huibg">
+    <div class="game-over">
+        <img src="img/gameover1.png" />
+        <span class="gameover-info">好遗憾哦，您来晚了，我们的活动已经结束，期待我们下次活动吧！</span>
+    </div>
+</div>
+
+
+<script src="js/jquery-2.1.1.min.js"></script>
+<!-- <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.1.min.js"></script> -->
+<script type="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<!--<script type="text/javascript" src="js/zepto.js"></script>-->
+<script type="text/javascript" src="js/midautumn16.js"></script>
+
+<script type="text/javascript">
+    /*显示游戏加载进度*/
+    var progress_id = "loading";
+    function SetProgress(progress) {
+        if (progress) {
+            /*$("#loading span").css("width", String(progress) + "%");*/ //控制#loading div宽度
+            $("#loading span").html("游戏加载中..."); //显示百分比"游戏加载中..."
+        }
+    }
+    var i = 0;
+    function doProgress() {
+        if (i > 100) {
+            $("#message").html("加载完毕！").fadeIn("slow");//加载完毕提示
+            return;
+        }
+        if (i <= 100) {
+            setTimeout("doProgress()", 100);
+            SetProgress(i);
+            i +=1;
+        }
+    }
+    $(document).ready(function() {
+        doProgress();
+    });
+</script>
+<script>
+    $(function () {
+        window.onload = function () {
+            $(".loading").hide();
+        }
+
+//        点击开始游戏按钮
+/*        $("#btnGamestart").on("click", function () {
+            $("#gameReady").hide();
+        })*/
+
+
+//        点击排行榜
+        $(".leader-btn").on("click", function () {
+            $(".leader").show();
+        })
+//        点击规则
+        $(".rules-btn").on("click", function () {
+            $(".rules").show();
+        })
+
+//      点击游戏规则的  button
+        $("#rules-btn").on("click", function () {
+            $(".rules").hide();
+//			alert(11);
+        })
+//      点击排行榜的  button
+        $("#leader-btn").on("click", function () {
+            $(".leader").hide();
+        })
+        //点击游戏规则的  button
+        $("#btn-gameRule").on("click", function () {
+            $(".rules").hide();
+        })
+
+        //点击按钮再玩一次  button
+        $("#btnRestart").on("click", function () {
+            $(".leader").hide();
+            window.location.reload(true);
+        })
+        //点击按钮告知好友  button
+        $("#btnShareFriend").on("click", function () {
+            $(".rules").hide();
+            $("#shareFriend").show();
+        })
+
+    })
+</script>
+
+</body>
+</html>

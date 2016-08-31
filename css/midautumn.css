@@ -1,0 +1,142 @@
+button{border:0;  cursor:pointer;  outline:0;  padding:0  }
+img{width:100%;  height:auto;  display:block;  }
+.none{display: none;}
+
+.page, .slogan,.codeMan,.code_p1,.code_p2 ,.start .button-wr .star, #pour, .tip ,.rules,.close,.result-plate,.success{
+    position:absolute
+}
+.code_p1{  top:65%;  text-align:center;  width:100%;  color:#fff;}
+.code_p2{  top:72%;  text-align:center;  width:100%;  color:#fff;}
+.result_code{  position: absolute;  width: 132px;  left: 50%;  margin-left: -66px;  top: 185px;  }
+
+.tip {  bottom:3%;  color: #fff;  left:0;  text-align:center;  width:100%  }
+.successBg{  position:absolute;  z-index:30;  background:rgba(0,0,0,0.8);  width:100%;  height:100%;display:none; }
+
+.result-plate {  top: 10%;  left: 50%;  width: 70%;  height: auto;  margin-left: -35%;  }
+.resultPage{z-index:9999;}
+
+
+/*游戏开始 start*/
+.loading{width:100%;height:100%;position:absolute;top:0;left:0;z-index:9999;background:#ffe9eb;}
+.loading img{ width: 230px;  height: 198px;  position: absolute;  top: 50%;  margin-top: -99px;  left: 50%;  margin-left: -115px;}
+
+.game-load{width:100%;height:100%;background:url(../img/loading.gif) no-repeat center top; background-size:cover;position:fixed;left:0;top:0;z-index:999}
+.game-load .load-text{display:block;width:30%;height:30px;line-height:30px;position:fixed;left:35%;top:50%; font-size:12px; color:#c92f2f;text-align:center;}
+.game-load>img{display:block;width:100%;height:100%;}
+
+.game-load .begin{width:120px;height:120px;position:absolute;bottom:34%;left:50%;margin-left:-60px;}
+.button-wr{width: 72%;height: auto;position: absolute;bottom: 8%;left: 50%;margin-left: -36%;}
+.button-wr img{background:#fa5043;}
+/*游戏开始 end*/
+
+
+.close{width: 72%;height: auto;position: absolute;bottom: 8%;left: 50%;margin-left: -36%;}
+.close img{background:#ffe9eb;}
+/*活动规则 end*/
+
+.game-con{width:100%;height:100%;position:absolute;overflow:hidden;}
+
+.ctrl-con .role-aa{width:80px;height:94px; position:absolute;left:0;top:0; background:url(../img/child.png) no-repeat center center;background-size:100% 100%;}
+
+.ctrl-con.tips {
+    background: url(http://beta.wboll.com/static/customization/brand_turkey/public/images/begin_tips.png) no-repeat center bottom;
+    background-size: 100% auto;}
+
+
+.mooncake0.crash,
+.mooncake1.crash,
+.mooncake2.crash,
+.mooncake3.crash,
+.mooncake4.crash,
+.mooncake5.crash,
+.mooncake6.crash,
+.mooncake7.crash,
+.mooncake8.crash,
+.mooncake9.crash,
+.mooncake10.crash{display:block}
+.mooncake0{width:37px;height:37px;display:block;position:absolute;left:0;top:0;background:url(../img/candy1.png) no-repeat center bottom;background-size:37px auto;display:none}
+.mooncake1{width:32px;height:31px;display:block;position:absolute;left:0;top:0;background:url(../img/candy2.png) no-repeat center bottom;background-size:32px auto;display:none}
+.mooncake2{width:37px;height:37px;display:block;position:absolute;left:0;top:0;background:url(../img/candy3.png) no-repeat center bottom;background-size:37px auto;display:none}
+.mooncake3{width:35px;height:35px;display:block;position:absolute;left:0;top:0;background:url(../img/candy4.png) no-repeat center bottom;background-size:35px auto;display:none}
+.mooncake4{width:35px;height:35px;display:block;position:absolute;left:0;top:0;background:url(../img/candy5.png) no-repeat center bottom;background-size:35px auto;display:none}
+.mooncake5{width:32px;height:32px;display:block;position:absolute;left:0;top:0;background:url(../img/candy6.png) no-repeat center bottom;background-size:32px auto;display:none}
+.mooncake6{width:34px;height:34px;display:block;position:absolute;left:0;top:0;background:url(../img/candy7.png) no-repeat center bottom;background-size:34px auto;display:none}
+.mooncake7{width:34px;height:34px;display:block;position:absolute;left:0;top:0;background:url(../img/candy8.png) no-repeat center bottom;background-size:34px auto;display:none}
+.mooncake8{width:28px;height:29px;display:block;position:absolute;left:0;top:0;background:url(../img/candy9.png) no-repeat center bottom;background-size:28px auto;display:none}
+
+
+/*end page start*/
+.end_page1,.end_page2,.end_page3{background:#f75249;position:absolute;top:0;left:0;width:100%;height:100%;}
+.end_txt{width:58%;margin:4.4% auto;}
+.end_smalTxt1{font-size:14px;text-align:center;line-height:23px;color:#fff;}
+.red_envelope{width:62%;margin:3% auto 0;}
+.red_envelope_mony{
+    text-align: center;
+    width: 62%;
+    position: absolute;
+    top: 44%;
+    font-size: 30px;
+    color: #ffff8d;
+    font-weight: bold;
+}
+
+.fight-con p{font-size:14px;text-align:center;line-height:23px;color:#fff;}
+.fight-con2 p{font-size:14px;text-align:center;line-height:23px;color:#fff;}
+.fight-con .org{font-size:14px;color:#fff;}
+.LQ_txt{position: absolute;width:100%;text-align:center;font-size:15px;color:#ffff8d;font-weight:400;line-height:28px;}
+.LQ_txt1{ top: 56%}
+.LQ_txt2{ top: 66%}
+
+.close_L{position:absolute;top:55px;right:0;width: 28px;z-index:200;}
+
+/*所有的按钮 定义的position 宽度*/
+.success_btn,.share_btn1,.again_btn,.share_btn3{width: 72%;height: auto;position: absolute;left: 50%;margin-left: -36%;}
+
+/*分别定义btn的  位置*/
+.success_btn,.again_btn{top:70%;}
+.share_btn1,.share_btn3{top:83.7%;}
+
+.over-con{ z-index:99;}
+
+.share-meng{width: 100%;  height: 100%;  position: fixed;  left: 0;  top: 0;  background: rgba(0,0,0,0.8) url(../img/meng_pic.png) no-repeat 79% top;  background-size: 60%;  z-index: 999;display:none;}
+
+/*end page end*/
+
+
+/*游戏结束人物 图片*/
+.boom{width:52px;height:38px;display:block;position:absolute;left:0;top:0;background:url(../img/bomb1.png) no-repeat center bottom;background-size:52px 38px;display:none}
+.boom1{width:30px;height:57px;display:block;position:absolute;left:0;top:0;background:url(../img/bomb2.png) no-repeat center bottom;background-size:30px 57px;display:none}
+.boom.crash{display:block;}
+.boom1.crash{display:block;}
+
+
+.ctrl-con{width:100%;height:94px;position:fixed;left:0;bottom:0;user-select:none;-webkit-user-select:none; z-index:3;}
+.ctrl-con .role{width:80px;height:94px;position:absolute;left:0;top:0;}
+.ctrl-con .role-aa.dead .role{ width:80px; left:0px;}
+.ctrl-con .role-aa.dead {background: url(../img/dead.png) left center no-repeat; background-size: 100% 100%;  width: 80px;}
+.ctrl-con .add{width:40px;height:39px;position:absolute;left:0;top:-39px;display:none;color:red;font-weight: 900;font-size: 40px;}
+
+
+/*=============================适配 ===========================*/
+
+/* 兼容iphone4/4s */
+@media (device-height:480px) and (-webkit-min-device-pixel-ratio:2){
+    .codeMan{top:46px;}
+    .result_code{top:159px;}
+
+}
+
+/* 兼容iphone5 */
+@media (device-height:568px) and (-webkit-min-device-pixel-ratio:2){
+
+}
+
+/* 兼容iphone6 */
+@media (device-height:667px) and (-webkit-min-device-pixel-ratio:2){
+    .codeMan{top:97px;}
+    .result_code{top:210px;}
+
+    .red_envelope_mony{top:42%;}
+}
+
+
